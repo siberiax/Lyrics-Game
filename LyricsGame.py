@@ -271,16 +271,15 @@ lyrics = {"After we’re gone, Who will breathe the earth we lost": 6,
 		"Spot in the crowd, singin' loud I'd see her always hangin' around": 2
 }
 
-r1 = "say -v 'samantha' 'Way to go Burton'"
-#r1 = "say -v 'samantha' 'Party on Zeus'"
-#r2 = "say -v 'samantha' 'Bahama duck approves'"
-#r3 = "say -v 'samantha' 'Jer Bear would be proud'"
-#r4 = "say -v 'samantha' 'Nice job my little pastor boy'"
-#r5 = "say -v 'samantha' 'Wow Nathan. I'm gonna be screaming a lot later on"
-responses = [r1]
-w = "say -v 'samantha' 'Cailin thats wrong. It's actually by "
+r1 = "say -v 'samantha' 'Party on Zeus'"
+r2 = "say -v 'samantha' 'Bahama duck approves'"
+r3 = "say -v 'samantha' 'Jer Bear would be proud'"
+r4 = "say -v 'samantha' 'Nice job my little pastor boy'"
+r5 = "say -v 'samantha' 'Wow Nathan. I'm gonna be screaming a lot later on"
+responses = [r1, r2, r3, r4, r5]
+w = "say -v 'samantha' 'Nathan thats wrong. It's actually by "
 q = "say -v 'samantha' \""
-f = "say -v 'samantha' \"Cailin your final score is "
+f = "say -v 'samantha' \"Nathan your final score is "
 q2 = "... can you guess the artist?\""
 
 print("GUESS THE ARTISTS!\n")
@@ -289,7 +288,6 @@ total = 0
 
 keys = list(lyrics.keys())
 random.shuffle(keys)
-
 
 for lyric in keys:
 	key = lyrics[lyric]
@@ -309,4 +307,3 @@ for lyric in keys:
 	print ("")
 score = (total/len(lyrics))*100
 os.system(f + str(total) + " out of " + str(len(lyrics)) + " which is a " + str(score) + " percent\"")
-
