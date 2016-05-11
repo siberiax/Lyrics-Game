@@ -18,8 +18,9 @@ Purity_Ring = 13
 Tove_Lo = 14
 
 groups = {Broods: "Broods", Cash_Cash: "Cash Cash", Colette_Carr: "Colette Carr", Ellie_Goulding: "Ellie Goulding",
-		Galantis: "Galantis", Illenium: "Illenium", Krewella: "Krewella", Lights: "Lights", Melanie_Martinez: "Melanie Martinez",
-		Owl_City: "Owl City", Phoebe_Ryan: "Phoebe Ryan", Purity_Ring: "Purity Ring", Tove_Lo: "Tove Lo"}
+		Galantis: "Galantis", Illenium: "Illenium", Kiiara: "Kiiara", Krewella: "Krewella", Lights: "Lights", 
+		Melanie_Martinez: "Melanie Martinez", Owl_City: "Owl City", Phoebe_Ryan: "Phoebe Ryan", Purity_Ring: "Purity Ring", 
+		Tove_Lo: "Tove Lo"}
 
 lyrics = {}
 
