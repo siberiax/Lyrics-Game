@@ -18,8 +18,8 @@ Purity_Ring = 13
 Tove_Lo = 14
 
 groups = {Broods: "Broods", Cash_Cash: "Cash Cash", Colette_Carr: "Colette Carr", Ellie_Goulding: "Ellie Goulding",
-		Galantis: "Galantis", Illenium: "Illenium", Kiiara: "Kiiara", Krewella: "Krewella", Lights: "Lights", 
-		Melanie_Martinez: "Melanie Martinez", Owl_City: "Owl City", Phoebe_Ryan: "Phoebe Ryan", Purity_Ring: "Purity Ring", 
+		Galantis: "Galantis", Illenium: "Illenium", Kiiara: "Kiiara", Krewella: "Krewella", Lights: "Lights",
+		Melanie_Martinez: "Melanie Martinez", Owl_City: "Owl City", Phoebe_Ryan: "Phoebe Ryan", Purity_Ring: "Purity Ring",
 		Tove_Lo: "Tove Lo"}
 
 lyrics = {}
@@ -36,7 +36,8 @@ Broods_Lyrics = ["Are you with us darling? Cause you treat it like a game",
 "You like to call me when I'm alone. Tell me that it's all for me",
 "You've been looking for more I've been holding my head",
 "I can't remember, and I can't concentrate",
-"You walked in said I've got some news"]
+"You walked in said I've got some news",
+"You got the key from under the mat. Took off your coat and hung up your hat"]
 
 Cash_Cash_Lyrics = ["I'm just a victim trying to set myself free, but it's so hard to see you ain't right for me",
 "You and I. We could fly. Til we die",
@@ -188,7 +189,7 @@ Lights_Lyrics = ["Perseids. Lead us out to where the money is",
 
 Melanie_Martinez_Lyrics = ["Did my invitations disappear? Why'd I put my heart on every cursive letter?",
 "Tired blue boy walks my way. Holding a girl's hand",
-"Broods, Cash_Cash, melatonin is coming for you",
+"One, Two, melatonin is coming for you",
 "Looking at me through your window, Boy you had your eye out for a little",
 "Think I just remembered something. I think I left the faucet running",
 "Round and round like a horse on a carousel, we go",
@@ -273,7 +274,8 @@ Phoebe_Ryan_Lyrics = ["Best believe, you couldn't cure me if you tried",
 "I've made mistakes, been dishonest Self-estranged, did what I wanted",
 "No I'm not tryin' to be rude but hey pretty girl I'm feelin' you",
 "When it went down. It was so hard to breathe",
-"I was lookin' for love when I lost it. Had a laundry list of others on the side"]
+"I was lookin' for love when I lost it. Had a laundry list of others on the side",
+"John, Jack and James, calling my name. Every night I'm looking for some, Captain Watson"]
 
 Purity_Ring_Lyrics = ["Dear lie still along my old web, Cursed by your dust filled head",
 "I came down over the sleepy mountains",
@@ -309,7 +311,7 @@ Tove_Lo_Lyrics = ["Lovers, into friends. Move on, to strangers",
 "You made your way in as I was leaving You cut in line just as I was getting my stuff"]
 
 Lists = [Broods_Lyrics, Cash_Cash_Lyrics, Colette_Carr_Lyrics, Ellie_Goulding_Lyrics,
-Galantis_Lyrics, Illenium_Lyrics, Kiiara_Lyrics, Krewella_Lyrics, Lights_Lyrics, 
+Galantis_Lyrics, Illenium_Lyrics, Kiiara_Lyrics, Krewella_Lyrics, Lights_Lyrics,
 Melanie_Martinez_Lyrics, Owl_City_Lyrics, Phoebe_Ryan_Lyrics, Purity_Ring_Lyrics, Tove_Lo_Lyrics]
 
 r1 = "say -v 'samantha' 'Party on Zeus'"
@@ -328,7 +330,9 @@ print("GUESS THE ARTISTS!\n")
 total = 0
 
 count = 1
+
 for l in Lists:
+	print (len(l))
 	for song in l:
 		lyrics[song] = count
 	count += 1
